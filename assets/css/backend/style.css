@@ -1,0 +1,124 @@
+.feed-them-social-admin-wrap h1 {
+    font-size: 29px;
+    padding-top: 20px;
+    text-transform: inherit;
+}
+input.Tiktok-input {
+    width: 226px;
+}
+
+.tiktok_form-main {overflow: hidden;padding: 13px;}
+
+.tiktok_form_left {
+    width: 200px;
+    float: left;
+}
+
+.tiktok_form_right {width: 234px;float: left;font-weight: 500;}
+
+.tiktok_form_left {}
+
+.tiktok_form_left strong {
+    font-size: 15px;
+    display: block;
+    /* background: rebeccapurple; */
+    padding: 9px 0px;
+}
+
+.tiktok_form_right select {
+    padding: 5px;
+    border: 1px solid #ababab;
+    border: 1px solid #cecece;
+}
+
+.tiktok_form_right select {
+    width: 100%;
+}
+.tiktok_form_right input[type="text"] {
+    padding: 5px;
+    width: 231px;
+    border: 1px solid #cecece;
+}
+
+.border-area {
+    max-width: 700px;
+    padding: 13px;
+}
+
+
+.checkbox-area input[type="checkbox"]{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0, .2);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.checkbox-area input:checked[type="checkbox"]{
+    background: #03a9f4;
+}
+
+.checkbox-area input[type="checkbox"]:before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0, .2);
+    transition: .5s;
+}
+
+.checkbox-area input:checked[type="checkbox"]:before{
+    left: 40px;
+}
+
+input.btn-add-data {
+    padding: 10px 15px;
+    border-radius: 1px;
+    background-color: #31ac45!important;
+    color: #fff!important;
+    font-weight: 400;
+    cursor: pointer!important;
+    transition: all .3s ease-in-out;
+    border: none;
+    letter-spacing: 1px;
+    outline: 0;
+    font-size: 17px;
+    margin-top: 33px;
+}
+
+ul.list-videos li {
+    width: 200px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin: 5px;
+}
+
+ul.list-videos li img {
+    width: 100%;
+}
+
+.options_group {
+    overflow: hidden;
+}
+
+
+table#qlttf_feeds_table th {
+    padding-left: 15px !important;
+}
+img.qlttf-avatar {
+    width: 50px !important;
+    height: 50px !important;
+}

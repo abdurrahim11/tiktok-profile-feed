@@ -1,0 +1,17 @@
+{
+  "name": "tiktok-profile-feed/tiktok-profile-feed",
+  "description": "Awesome starter plugin example",
+  "type": "project",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Abdur Rahim",
+      "email": "abdurrahimctg10@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {"Inc\\": "./inc"}
+  }
+}
